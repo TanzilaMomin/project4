@@ -1,0 +1,45 @@
+.main{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    color: deeppink;
+    background-color: lightcyan;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    opacity: 0.5;
+    z-index: 1;
+}
+h4{
+    color: red;
+    background-color: lightpink;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    right: 30px;opacity: 0.5;
+}
+.sub{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 7px inset darkblue;
+    border-radius: 20px;
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+img{
+    height: 245px;
+    width: 340px;
+    border-radius: 20px;
+    border: 3px inset brown;
+}
